@@ -1,15 +1,183 @@
 {
   "uuid": "0063d10ee6d4bba2f41af58c51a5596b",
-  "path": "Offline/Teensy FETer",
+  "path": "Offline/Teensy%20FETer",
   "name": "Teensy FETer",
   "content": "",
   "created_at": "2021-07-22 04:44:14",
-  "updated_at": "2021-07-22 04:44:14",
+  "updated_at": "2022-01-30 06:14:58",
   "stick": "",
-  "documents": [],
+  "documents": [
+    {
+      "uuid": "9d9fafef8e14ab883abeb255675f6cab",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f80e29816fd30bb295222fb4f47bcc25": 10,
+        "487f26d844524d42af847f57caae2763": 1,
+        "e869a782b90705dc9926da97baa35b27": 10,
+        "4be373e54b84bc7610843095aa7d4c42": 10,
+        "ed9eb2faffb34286820a54a14e9e9e24": 20,
+        "0806368f73e1232ca543f14a515367b4": 10,
+        "dfb11eb13335d516877368609ee22f70": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "WJ128V-5.0-2P",
+          10,
+          "CONN-TH_2P-P5.00_WJ128V-5.0-2P",
+          "J5,J4,J1,J9,J10,J2,J8,J6,J3,J7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "WJ128V-5.0-2P",
+            "BOM_Supplier Part": "C8269",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3552a8e27c5a459db1e8804ab2f97839",
+            "uuid": "4be373e54b84bc7610843095aa7d4c42"
+          }
+        ],
+        [
+          "Teensy",
+          1,
+          "TEENSY LC/3.0/3.1/3.2",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "c95857caf0984265be8a7cf7fde5cf34",
+            "uuid": "487f26d844524d42af847f57caae2763"
+          }
+        ],
+        [
+          "KT-0603R",
+          10,
+          "LED0603-R-RD",
+          "LED7,LED8,LED6,LED3,LED10,LED2,LED9,LED1,LED5,LED4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "KT-0603R",
+            "BOM_Supplier Part": "C2286",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "50dc3b6111d549ddb6686d77ab1ebdd8",
+            "uuid": "0806368f73e1232ca543f14a515367b4"
+          }
+        ],
+        [
+          "WJ126V-5.0-3P",
+          1,
+          "CONN-TH_3P-P5.00_WJ126V-5.0-3P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "WJ126V-5.0-3P",
+            "BOM_Supplier Part": "C8401",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7e8815a1e0b2432e94e38fdef8255f1e",
+            "uuid": "dfb11eb13335d516877368609ee22f70"
+          }
+        ],
+        [
+          "SM4007PL",
+          10,
+          "SOD-123F_L2.8-W1.8-LS3.7-RD",
+          "D6,D1,D7,D3,D8,D4,D5,D2,D9,D10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MDD",
+            "BOM_Manufacturer Part": "SM4007PL",
+            "BOM_Supplier Part": "C64898",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "e8e78627020b4795961cd17fb8b42b10",
+            "uuid": "e869a782b90705dc9926da97baa35b27"
+          }
+        ],
+        [
+          "1K5",
+          10,
+          "R0805",
+          "R3,R11,R13,R15,R9,R7,R5,R19,R1,R17",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "10K",
+          10,
+          "R0805",
+          "R6,R12,R2,R18,R10,R14,R16,R4,R20,R8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "AO3400A",
+          10,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q9,Q10,Q3,Q5,Q8,Q2,Q6,Q7,Q4,Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AOS",
+            "BOM_Manufacturer Part": "AO3400A",
+            "BOM_Supplier Part": "C20917",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "f80e29816fd30bb295222fb4f47bcc25"
+          }
+        ]
+      ],
+      "updateTime": 1626899646,
+      "createTime": 1626893220,
+      "histories": [],
+      "created_at": "2021-07-22 04:47:00",
+      "updated_at": "2021-07-22 06:34:06"
+    },
+    {
+      "uuid": "fc457389cf6a4164d8f6af0996172f09",
+      "puuid": "0063d10ee6d4bba2f41af58c51a5596b",
+      "title": "PCB_Teensy FETer",
+      "filename": "PCB_Teensy FETer.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b3b82869fa924bae820e3a6cfb44d689": 10,
+        "3552a8e27c5a459db1e8804ab2f97839": 10,
+        "c95857caf0984265be8a7cf7fde5cf34": 1,
+        "50dc3b6111d549ddb6686d77ab1ebdd8": 10,
+        "e8e78627020b4795961cd17fb8b42b10": 10,
+        "769626f169ec49d9867bc27eb696b6b9": 20,
+        "7e8815a1e0b2432e94e38fdef8255f1e": 1
+      },
+      "BOM": [],
+      "updateTime": 1643483698,
+      "createTime": 1626897056,
+      "histories": [],
+      "created_at": "2021-07-22 05:50:56",
+      "updated_at": "2022-01-30 06:14:58"
+    }
+  ],
   "sort": [],
   "title": "Teensy FETer",
   "foldername": "Teensy FETer",
   "schfilename": "Teensy FETer.json",
-  "schfilemtime": 1626893054036.7126
+  "schfilemtime": 1626899646141
 }
