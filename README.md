@@ -15,9 +15,12 @@ Usage notes
 * ..... USB power ........
 * Power is always connected to pin 1 of the .............
 
-This board was designed in of [EasyEDA](https://easyeda.com/).
+TODO
+----
 
-TODO: Add photo
+* [ ] TODO: Add silkscreen labels on 2 pin secrew terminals
+* [ ] TODO: Add silkscreen labels on 3 pin secrew terminals
+* [ ] TODO: More example code?
 
 Licence
 -------
