@@ -18,8 +18,8 @@ Usage notes
 TODO
 ----
 
-* [ ] TODO: Add silkscreen labels on 2 pin secrew terminals
-* [ ] TODO: Add silkscreen labels on 3 pin secrew terminals
+* [ ] TODO: Add silkscreen labels on 2 pin screw terminals
+* [ ] TODO: Add silkscreen labels on 3 pin screw terminals
 * [ ] TODO: More example code?
 
 Licence
