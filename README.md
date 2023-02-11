@@ -58,7 +58,7 @@ This is useful for testing and for when you only need to control low power devic
 
 ## Licence
 
-Copyright © 2021, 2022 Phil Baldwin
+Copyright © 2021, 2022, 2023 Phil Baldwin
 
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
